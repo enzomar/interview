@@ -9,7 +9,7 @@ Fill in the missing code
 """
 
 
-def print_directory_contents(sPath):
+def print_directory_contents(in_path):
     """
     This function takes the name of a directory 
     and prints out the paths files within that 
@@ -20,4 +20,6 @@ def print_directory_contents(sPath):
     use os.walk in your answer. We are interested in your 
     ability to work with nested structures. 
     """
-    fill_this_in
+    print("TODO")
+    
+print_directory_contents(".")  

@@ -9,11 +9,13 @@
 - KISS! Keep it Simple, Stupid!
 """
 
-def print_directory_contents(sPath):
+def print_directory_contents(in_path):
     import os                                       
-    for sChild in os.listdir(sPath):                
-        sChildPath = os.path.join(sPath,sChild)
+    for sChild in os.listdir(in_path):                
+        sChildPath = os.path.join(in_path,sChild)
         if os.path.isdir(sChildPath):
             print_directory_contents(sChildPath)
         else:
             print(sChildPath)
+
+print_directory_contents(".") 

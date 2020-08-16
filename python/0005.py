@@ -3,7 +3,7 @@
 ## Description
 count letter occurence in a string
 ## Hints
-- do not thikn as c/c++ developer in python 
+- do not think as c/c++ developer in python 
 
 """
 
@@ -15,8 +15,7 @@ def random_char(y):
 
 
 def count_letter(input_string):
-    # TODO
-    pass
+    print("TODO")
 
 
 if __name__ == "__main__":
